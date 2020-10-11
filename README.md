@@ -3,9 +3,10 @@
 
 # Primeiro teste com o Github
 
-Estarei iniciando a inserir meus aquivos aqui, para ter o controle de
-versões, procedimento que pode auxiliar muito no desenvolvimento de
-projetos.
+Iniciando teste para inserir meus aquivos aqui e assim ter o controle
+das versões, procedimento que pode auxiliar muito no desenvolvimento de
+projetos de análise de
+dados.
 
 <img src="http://www.ppge.ufrpe.br/sites/ppge.ufrpe.br/files/styles/large/public/field/image/alef_campo.jpg?itok=fcw7whOQ" alt="The rmarkddown hex sticker" align="right" width="200" style="padding: 0 15px; float: right;"/>
 
@@ -88,9 +89,10 @@ head(dados)
     ## Hornet Sportabout 18.7   8  360 175 3.15 3.440 17.02  0  0    3    2
     ## Valiant           18.1   6  225 105 2.76 3.460 20.22  1  0    3    1
 
-imag/000003.png
+<img src="imag/000003.png" width= "500" align="center">
 
 ``` r
+#Inserindo Tabela
 knitr::kable(dados)
 ```
 
@@ -132,3 +134,6 @@ knitr::kable(dados)
 #### Inseriando Imagem
 
 <img src="https://raw.githubusercontent.com/allisonhorst/stats-illustrations/master/rstats-artwork/code_hero.jpg" width= "500" align="center">
+
+Illustraçãos by:
+[allisonhorst](https://github.com/allisonhorst/stats-illustrations)

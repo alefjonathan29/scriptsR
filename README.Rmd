@@ -64,6 +64,7 @@ ggplot(dados) +
 
 
 ```{r}
+#Inserindo Tabela
 knitr::kable(dados)
 ```
 
@@ -72,7 +73,8 @@ knitr::kable(dados)
 #### Inseriando Imagem
 
 <img src="https://raw.githubusercontent.com/allisonhorst/stats-illustrations/master/rstats-artwork/code_hero.jpg" width= "500" align="center">
-Illustrações by: [allisonhorst](https://github.com/allisonhorst/stats-illustrations)
+
+Illustraçãos by: [allisonhorst](https://github.com/allisonhorst/stats-illustrations)
 
 
   
