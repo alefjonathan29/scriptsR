@@ -49,16 +49,16 @@ library(esquisse)
 dados <- mtcars
 head(dados)
 
+```
+
+```{r}
 ggplot(dados) +
  aes(x = wt, y = disp, colour = carb) +
  geom_point(size = 2.5, colour = "#2171b5") +
  geom_smooth(span = 0.75) +
  scale_color_viridis_c(option = "magma") +
  theme_bw()
-
-
 ```
-
 
  
 #### Inseriando Imagem
