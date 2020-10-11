@@ -1,0 +1,13 @@
+
+<!-- README.md gernando arquivo para o Github ler como inicial -->
+
+# Primeiro teste com o Github
+
+Estarei iniciando a inserir meus aquivos aqui, para ter o controle de
+versões, procedimento que pode auxiliar muito no desenvolvimento de
+projetos.
+
+Pelo visto posso inserir links diretos: <https://www.r-project.org/>
+
+Ou mesmo inserir como link em um texto, por exemplo: [Clique
+aqui](https://www.r-project.org/)

@@ -1,46 +1,12 @@
 ---
-title: "Presentation Ninja"
-subtitle: "⚔<br/>with xaringan"
-author: "Yihui Xie"
-institute: "RStudio, PBC"
-date: "2016/12/12 (updated: `r Sys.Date()`)"
-output:
-  xaringan::moon_reader:
-    lib_dir: libs
-    nature:
-      highlightStyle: github
-      highlightLines: true
-      countIncrementalSlides: false
+output: github_document
 ---
+<!-- README.md gernando arquivo para o Github ler como inicial -->
 
-background-image: url(https://upload.wikimedia.org/wikipedia/commons/b/be/Sharingan_triple.svg)
+# Primeiro teste com o Github
 
-```{r setup, include=FALSE}
-options(htmltools.dir.version = FALSE)
-```
+Estarei iniciando a inserir meus aquivos aqui, para ter o controle de versões, procedimento que pode auxiliar muito no desenvolvimento de projetos.
 
-???
+Pelo visto posso inserir links diretos: https://www.r-project.org/
 
-Image credit: [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Sharingan_triple.svg)
-
----
-class: center, middle
-
-# xaringan
-
-### /ʃaː.'riŋ.ɡan/
-
----
-class: inverse, center, middle
-
-# Get Started
-
----
-
-# Hello World
-
-Install the **xaringan** package from [Github](https://github.com/yihui/xaringan):
-
-```{r eval=FALSE, tidy=FALSE}
-devtools::install_github("yihui/xaringan")
-```
+Ou mesmo inserir como link em um texto, por exemplo: [Clique aqui](https://www.r-project.org/)
