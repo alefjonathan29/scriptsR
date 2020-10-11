@@ -51,7 +51,7 @@ head(dados)
 
 ```
 
-```{r}
+```{r include=FALSE}
 ggplot(dados) +
  aes(x = wt, y = disp, colour = carb) +
  geom_point(size = 2.5, colour = "#2171b5") +
@@ -59,9 +59,15 @@ ggplot(dados) +
  scale_color_viridis_c(option = "magma") +
  theme_bw()
 ```
-<img src="<img src="imag/000003.png" width= "500" align="center">" width= "500" align="center">
 
- 
+imag/000003.png
+
+```{r}
+knitr::kable(dados)
+```
+
+
+
 #### Inseriando Imagem
 
 <img src="https://raw.githubusercontent.com/allisonhorst/stats-illustrations/master/rstats-artwork/code_hero.jpg" width= "500" align="center">
