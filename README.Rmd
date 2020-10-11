@@ -40,7 +40,27 @@ library(tidyverse)
 head(mtcars)
 ```
 
+Gerando gráficos
+```{r message=FALSE}
+#message=FALSE, permite não mostrar a saída gerada pelo library()
+library(ggplot2)
+library(esquisse)
 
+dados <- mtcars
+head(dados)
+
+ggplot(dados) +
+ aes(x = wt, y = disp, colour = carb) +
+ geom_point(size = 2.5, colour = "#2171b5") +
+ geom_smooth(span = 0.75) +
+ scale_color_viridis_c(option = "magma") +
+ theme_bw()
+
+
+```
+
+
+ 
 #### Inseriando Imagem
 
 <img src="https://raw.githubusercontent.com/allisonhorst/stats-illustrations/master/rstats-artwork/code_hero.jpg" width= "500" align="center">
