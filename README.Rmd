@@ -59,6 +59,7 @@ ggplot(dados) +
  scale_color_viridis_c(option = "magma") +
  theme_bw()
 ```
+<img src="<img src="imag/000003.png" width= "500" align="center">" width= "500" align="center">
 
  
 #### Inseriando Imagem

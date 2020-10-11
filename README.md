@@ -97,7 +97,12 @@ ggplot(dados) +
  theme_bw()
 ```
 
-![](README_files/figure-gfm/unnamed-chunk-4-1.png)<!-- -->
+    ## `geom_smooth()` using method = 'loess' and formula 'y ~ x'
+
+![](README_files/figure-gfm/unnamed-chunk-5-1.png)<!-- --> \<img
+src=“<img src="imag/000003.png" width= "500" align="center">” width=
+“500”
+align=“center”\>
 
 #### Inseriando Imagem
 
